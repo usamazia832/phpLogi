@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="515dp"
+        android:hint="Name"
+        android:paddingTop="175dp"
+        android:textSize="24sp"></EditText>
+
+    <EditText
+        android:id="@+id/txtAdress"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="431dp"
+        android:hint="Adress"
+        android:paddingTop="200dp"
+        android:textSize="24sp"></EditText>
+
+    <EditText
+        android:id="@+id/txtEmial"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="345dp"
+        android:hint="Email"
+        android:paddingTop="175dp"
+        android:textSize="24sp"></EditText>
+
+    <EditText
+        android:id="@+id/txtUser"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="259dp"
+        android:hint="Name"
+        android:paddingTop="175dp"
+        android:textSize="24sp"></EditText>
+
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="183dp"
+        android:hint="Password"
+        android:paddingTop="175dp"
+        android:textSize="24sp"></EditText>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="141dp"
+        android:layout_height="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="123dp"
+        android:layout_marginRight="123dp"
+        android:layout_marginBottom="102dp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:text="Login"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="51dp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:text="Register User"
+        android:textSize="24sp"/>
+</RelativeLayout>
